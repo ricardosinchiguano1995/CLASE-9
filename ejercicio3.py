@@ -1,0 +1,10 @@
+import turtle
+t=turtle.Pen()
+t.forward(100)
+t.left(90)
+t.forward(40)
+t.left(45)
+t.forward(125)
+t.left(30)
+t.forward(50)
+turtle.getscreen()._root.mainloop()

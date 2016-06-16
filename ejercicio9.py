@@ -1,0 +1,10 @@
+from tkinter import *
+tk=Tk()
+canvas=Canvas(tk, width=800, height=800)
+canvas.pack()
+mi_imagen=PhotoImage(file="ball.gif")
+canvas.create_image(20,20, ancho=NW, image=mi_imagen)
+canvas.create_image(60,60, ancho=NW, image=mi_imagen)
+canvas.create_image(100,100, ancho=NW, image=mi_imagen)
+canvas.create_image(150,150, ancho=NW, image=mi_imagen)
+tk.mainloop()
